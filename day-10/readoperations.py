@@ -1,0 +1,6 @@
+file = open("day-10/file.txt", "r")
+a = file.readline()
+print(a)
+b=file.readlines()
+print(b)
+file.close()
